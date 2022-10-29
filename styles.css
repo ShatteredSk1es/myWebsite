@@ -1,0 +1,65 @@
+* {
+  background-color: lightgray;
+}
+
+.black {
+  background-color: black;
+}
+
+.table {
+  display: flex;
+  background-color: black;
+  width: 100%;
+  height: 30px;
+  border-style: solid;
+}
+
+.font-type {
+  width: 20%;
+  color: gray;
+  background-color: black;
+  font: 30;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.larger-font-type {
+  font-size: larger;
+  color: darkgray;
+}
+
+.change-color:hover {
+  color: aqua;
+}
+
+.grid {
+  display: grid;
+  grid-template-areas: 
+  'Mohammad About Contact Link';
+  background-color: black;
+  padding: 10px;
+}
+
+.item1, .item2, .item3, .item4 {
+  background-color: black;
+  color: aqua;
+}
+
+.item1 {
+  grid-area: Mohammad;
+}
+
+.item2 {
+  grid-area: About;
+}
+
+.item3 {
+  grid-area: Contact;
+}
+
+.item4 {
+  grid-area: Link;
+}
+
+#color {
+  color: blue;
+}

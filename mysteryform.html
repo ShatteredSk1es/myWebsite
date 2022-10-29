@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2 id="bigger">This will become bigger!</h2>
+
+    <form action="" method="get">
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+        <br>
+        <br>
+        <label for="text">Email:</label>
+        <input type="text" id="email">
+        <label for="type"></label>
+        <br>
+        <br>
+        <input type="button" onclick="something()" value="Submit" >
+    </form>
+
+    <script>
+        function something() {
+            document.getElementById('bigger').style.fontSize = "100px";
+            document.getElementById('bigger').textContent = "Haha, got you"
+            window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ" , "_blank")
+        }
+    </script>
+
+
+</body>
+</html>
